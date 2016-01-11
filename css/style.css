@@ -12,6 +12,7 @@ h6 {
   padding:0;
   margin:0;
   font-family: "Roboto", sans-serif;
+  background-image: url('images/background.png');
 }
 
 .clear-fix {
@@ -129,9 +130,28 @@ a {
 }
 
 /* TODO: Replace with image later */
-#header {
+#header,
+#navbar {
   background-color: #484848;
 }
+
+#navbar {
+  height: 42px;
+  padding: 0 70px;
+}
+
+toWork,
+toProject,
+toEducation,
+toMap {
+  float: left;
+  min-width: 200px;
+  padding: auto;
+  margin: 0;
+  background-color: #606060;
+  text-align: center;
+}
+
 
 .flex-box {
   display: -webkit-flex;
